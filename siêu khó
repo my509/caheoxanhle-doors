@@ -166,3 +166,11 @@ loadstring(game:HttpGet("https://pastefy.app/RSFkJkbV/raw"))()
 end
 
 end)()
+
+-- shocker
+coroutine.wrap(function()
+    while true do
+        wait(35)
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/vct0721/Doors-Stuff/refs/heads/main/Entities/Shocker"))()
+    end
+end)()
