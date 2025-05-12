@@ -170,7 +170,7 @@ end)()
 -- shocker
 coroutine.wrap(function()
     while true do
-        wait(35)
+        wait(math.random(1,100))
         loadstring(game:HttpGet("https://raw.githubusercontent.com/vct0721/Doors-Stuff/refs/heads/main/Entities/Shocker"))()
     end
 end)()
